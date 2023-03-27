@@ -12,7 +12,7 @@ export class Home extends Component {
     posts: [],
     allPosts: [],
     page: 0,
-    postsPerPage: 45,
+    postsPerPage: 10,
     searchValue: "",
   };
   async componentDidMount() {
